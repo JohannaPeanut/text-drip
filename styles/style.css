@@ -1,0 +1,31 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+canvas {
+  background-color: black;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button{
+  margin: 20px;
+  padding: 5px;
+  background-color: black;
+  color: yellow;
+  border: 1px solid yellow;
+}
